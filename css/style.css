@@ -1,0 +1,89 @@
+body {
+
+}
+
+header {
+    border: 2px solid;
+    background-color: #2E5894;
+    color: white;
+    font-size: 48px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+h2 {
+    border-bottom: 2px solid;
+}
+
+h3 {
+    border-bottom: 2px solid;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer > p {
+    margin-left: 100px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#bio-pic {
+    float: left;
+    margin-right: 10px;
+}
+
+#about-me {
+    margin-top: 20px;
+}
+
+#copyright {
+    margin-right: 5px;
+    float: right;
+}
+
+#webdev {
+    font-size: 36px;
+    margin-top: 7px;
+}
+
+#contact {
+    color: white;
+    font-size: 24px;
+    float: right;
+    margin-top: 20px;
+}
+
+#skills-section {
+    margin-top: 5px;
+}
+
+#skills {
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
+#skills2 {
+    height: 50px;
+    width: 80px;
+    display: inline;
+}
+
+#project-img {
+    margin-left: 14%;
+    border-color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+    #webdev {
+        font-size: 22px;
+    }
+}
+
