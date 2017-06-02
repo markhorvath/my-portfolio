@@ -8,6 +8,7 @@ header {
     color: white;
     font-size: 48px;
     font-family: 'Gentium Book Basic', serif;
+    background-image: linear-gradient(to bottom, #191970 0, #8F8FBC 100%);
 }
 
 h2 {
@@ -58,6 +59,7 @@ footer > p {
     font-size: 24px;
     float: right;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 #skills-section {
@@ -68,17 +70,24 @@ footer > p {
     height: 50px;
     width: 50px;
     display: inline;
+    margin: 5px 5px;
 }
 
 #skills2 {
     height: 50px;
-    width: 80px;
+    width: 90px;
     display: inline;
+    margin: 5px 5px;
 }
 
 #project-img {
     margin-left: 14%;
+    margin-top: 10px;
     border-color: blue;
+}
+
+#project-desc {
+    margin-top: 5px;
 }
 
 @media only screen and (max-width: 768px) {
